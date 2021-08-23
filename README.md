@@ -1,5 +1,5 @@
-# wcat 
-wcat is a CLI(Command Line Interface) application, coded in JavaScript. It allows it's users to perform certain file operations(read file, remove specific characters from mentioned files, add line numbers in file, etc.) which are similar to those availed by the `cat` command in Linux.
+# mcat 
+mcat is a CLI(Command Line Interface) application, coded in JavaScript. It allows it's users to perform certain file operations(read file, remove specific characters from mentioned files, add line numbers in file, etc.) which are similar to those availed by the `cat` command in Linux.
 
 ### Installation:
 (Make sure you have [Git](https://git-scm.com/downloads) and [Node JS](https://nodejs.org/en/download/) installed on your system)
@@ -12,9 +12,9 @@ I have used the Node.js **fs (file system)** module to be able to access and int
 If you wish to learn more about the Node.js fs module, click [here](https://nodejs.dev/learn/the-nodejs-fs-module).
 
 ### Usage:
-`wcat [options] file(s)`
+`mcat [options] file(s)`
 For example:
-`wcat -r my_file.txt`
+`mcat -r my_file.txt`
 The above `wcat` command uses option `-r` to specify that it wants to _read_ the file named _my_file.txt_.
 **Note** : You can specify multiple options and multiple files as well.
 
